@@ -1,0 +1,56 @@
+.matrix-item {
+  border: 1px solid $gray-300;
+  padding: 1rem;
+  margin: 1rem 0;
+
+  .text {
+    a {
+      color: $black;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: $primary;
+    }
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .info {
+    text-indent: 1rem;
+    text-align: justify;
+  }
+
+  input {
+    visibility:hidden;
+  }
+
+  .btn-left {
+    font-weight: 500;
+    font-size: .8rem;
+    text-align: left;
+  }
+
+  .btn-left:hover, .btn-left:focus, .btn-left:active, .btn-left.active{
+    background-color: $gray-400;
+    color: $black;
+  }
+
+  .btn-sel-dis, .btn-sel-dis:hover, .btn-sel-dis:focus, .btn-sel-dis:active, .btn-sel-dis.active{
+    background-color: $gray-400;
+    color: $black;
+  }
+}
+
+.s150 {
+  width: 150px;
+  height: 150px;
+  border: 1px solid $gray-300;
+  padding: 2px;
+  margin: 1px;
+}

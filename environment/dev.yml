@@ -1,0 +1,17 @@
+version: "2.4"
+
+services:
+  ubuntu:
+    build:
+      context: ./ubuntu
+    working_dir: /
+    container_name: ubuntu
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ../frontend:/var/www/whosaiditfriends.com
+      - ../environment:/environment
+      - ../environment/ubuntu/syslog/config/conf.d.development/:/etc/syslog-ng/conf.d/
+      - ../files:/files
+    command: tail -F anything

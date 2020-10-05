@@ -1,0 +1,145 @@
+.bgds-navbar {
+  background: #fff;
+  z-index: 3;
+  padding: 0;
+  @include media-breakpoint-down(md) {
+    background: $white;
+    position: relative;
+    top: 0;
+    padding: .6rem 1rem;
+  }
+
+  .navbar-brand {
+    color: $black;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1;
+    span{
+      color: lighten($black,80%);
+    }
+    &:hover, &:focus{
+      color: $black;
+    }
+    @include media-breakpoint-down(sm){
+      margin-bottom: .6rem;
+    }
+  }
+
+  .navbar-nav {
+    @include media-breakpoint-down(md){
+      padding-bottom: .6rem;
+    }
+    > .nav-item {
+      > .nav-link {
+        font-size: .9rem;
+        padding-top: .6rem;
+        padding-bottom: .6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-weight: 700;
+        color: $black;
+        position: relative;
+        text-transform: uppercase;
+        &:before{
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: .1rem;
+          bottom: 0;
+          left: 0;
+          background-color: $primary;
+          visibility: hidden;
+          z-index: -1;
+        }
+        &:hover {
+          color: $primary;
+          &:before{
+            visibility: visible;
+            background-color: $primary;
+          }
+        }
+        opacity: 1!important;
+        @include media-breakpoint-down(md){
+          padding-left: 0;
+          padding-right: 0;
+          padding-top: .9rem;
+          padding-bottom: .9rem;
+          &:hover{
+            color: $primary;
+          }
+        }
+        @include media-breakpoint-down(sm){
+          border-bottom: .2rem solid rgba(0,0,0,.05);
+        }
+      }
+
+      .dropdown-menu{
+        border: none;
+        background: $white;
+        -webkit-box-shadow: 0 1rem 2rem -1.5rem rgba(0,0,0,0.41);
+        -moz-box-shadow: 0 1rem 2rem -1.5rem rgba(0,0,0,0.41);
+        box-shadow: 0 1rem 2rem -1.5rem rgba(0,0,0,0.41);
+        border-radius: .3rem;
+        .dropdown-item{
+          font-size: .8rem;
+          color: $black;
+          &:hover, &:focus{
+            background: $primary;
+            color: $white;
+          }
+        }
+        @include media-breakpoint-down(md){
+          display: block !important;
+          background: $white;
+          box-shadow: none;
+        }
+      }
+
+
+      &.cta {
+        > a {
+          color: $white;
+          background: $primary;
+          border-radius: 0;
+          @include media-breakpoint-down(sm){
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+          @include media-breakpoint-down(md){
+            color: $white;
+            background: $primary;
+            border-radius: .3rem;
+          }
+        }
+      }
+      &.active {
+        > a {
+          color: $primary;
+          &:before{
+            visibility: visible;
+            background-color: $primary;
+          }
+          @include media-breakpoint-down(md){
+            color: $black;
+            &:before{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-toggler {
+    border: none;
+    color: rgba(0,0,0,.5)!important;
+    cursor: pointer;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    &:focus{
+      outline: none !important;
+    }
+  }
+}
