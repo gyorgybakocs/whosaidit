@@ -1,0 +1,21 @@
+tv_series;season;episode;count;quote_hu;quote_en;person;video_file;from;to;series_info
+Friends;1;1;1;<p>idezet 1</p>;<p>quote 1</p>;Chandler;/episode0101.mp4;0:0;0:10;friends.url
+Friends;1;3;2;<p>idezet 2</p>;<p>quote 2</p>;Monica;/episode0103.mp4;0:0;0:10;friends.url
+Friends;2;4;1;<p>idezet 3</p>;<p>quote 3</p>;Phoebe;/episode0204.mp4;0:0;0:10;friends.url
+Friends;2;12;2;<p>idezet 4</p>;<p>quote 4</p>;Joey;/episode0212.mp4;0:0;0:10;friends.url
+Friends;3;1;1;<p>idezet 5</p>;<p>quote 5</p>;Rachel;/episode0301.mp4;0:0;0:10;friends.url
+Friends;3;1;2;<p>idezet 6</p>;<p>quote 6</p>;Ross;/episode0301.mp4;0:0;0:10;friends.url
+Friends;4;4;1;<p>idezet 7</p>;<p>quote 7</p>;Phoebe;/episode0404.mp4;0:0;0:10;friends.url
+Friends;4;11;2;<p>idezet 8</p>;<p>quote 8</p>;Rachel;/episode0411.mp4;0:0;0:10;friends.url
+Friends;5;21;1;<p>idezet 9</p>;<p>quote 9</p>;Ross;/episode0521.mp4;0:0;0:10;friends.url
+Friends;5;22;2;<p>idezet 10</p>;<p>quote 10</p>;Rachel;/episode0522.mp4;0:0;0:10;friends.url
+Friends;6;13;1;<p>idezet 11</p>;<p>quote 11</p>;Chandler;/episode0613.mp4;0:0;0:10;friends.url
+Friends;6;17;2;<p>idezet 12</p>;<p>quote 12</p>;Phoebe;/episode0617.mp4;0:0;0:10;friends.url
+Friends;7;1;1;<p>idezet 13</p>;<p>quote 13</p>;Ross;/episode0701.mp4;0:0;0:10;friends.url
+Friends;7;2;2;<p>idezet 14</p>;<p>quote 14</p>;Rachel;/episode0702.mp4;0:0;0:10;friends.url
+Friends;8;1;1;<p>idezet 15</p>;<p>quote 15</p>;Chandler;/episode0801.mp4;0:0;0:10;friends.url
+Friends;8;3;2;<p>idezet 16</p>;<p>quote 16</p>;Ross;/episode0803.mp4;0:0;0:10;friends.url
+Friends;9;11;1;<p>idezet 17</p>;<p>quote 17</p>;Phoebe;/episode0911.mp4;0:0;0:10;friends.url
+Friends;9;11;2;<p>idezet 18</p>;<p>quote 18</p>;Monica;/episode0911.mp4;0:0;0:10;friends.url
+Friends;10;12;1;<p>idezet 19</p>;<p>quote 19</p>;Ross;/episode1012.mp4;0:0;0:10;friends.url
+Friends;10;21;2;<p>idezet 20</p>;<p>quote 20</p>;Rachel;/episode1021.mp4;0:0;0:10;friends.url

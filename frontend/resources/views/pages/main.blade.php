@@ -1,0 +1,13 @@
+@extends('master')
+@section('head')
+    <x-head/>
+@stop
+@section('navbar')
+    <x-menu/>
+@stop
+@section('breadcrumb')
+    <x-breadcrumb/>
+@stop
+@section('rightcol')
+    <x-rightcol/>
+@stop
